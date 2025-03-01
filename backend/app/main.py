@@ -4,7 +4,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from app.api.routes import cities, prices, forecast, exchange, recommendations
 
 app = FastAPI(
-    title="Inflation Survival Platform API",
+    title="Inflation Survival Platform",
     description="Track prices, compare cities, and forecast inflation trends.",
     version="1.0.0",
 )
